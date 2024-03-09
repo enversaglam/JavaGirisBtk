@@ -2,8 +2,12 @@ package D01_Baslangic;
 
 public class E03_dataTypes {
     public static void main(String[] args) {
-        byte sayi = 12;
+        double sayi = 12.5;
 
-        sayi = 127;
+        sayi = -129;
+
+        char karakter = 'A';
+
+        boolean dogruMu = false;
     }
 }
