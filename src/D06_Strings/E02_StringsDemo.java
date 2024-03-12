@@ -19,7 +19,7 @@ public class E02_StringsDemo {
         //toLowerCase - toUpperCase
         System.out.println(mesaj.toLowerCase());
         System.out.println(mesaj.toUpperCase());
-        //trim
+        //trim bastaki ve sondaki bosluklari alir
         String deneme = "     Merhaba Dünya merhaba     ";
         System.out.println(deneme);
         System.out.println(deneme.trim());
