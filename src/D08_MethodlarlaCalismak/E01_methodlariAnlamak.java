@@ -8,7 +8,7 @@ public class E01_methodlariAnlamak {
     public static void findNumber() {
         int[] numbers = new int[] {1,2,5,7,9,0};
 
-        int aranacak = 5;
+        int aranacak = 3;
         boolean varMi = false;
 
         for (int i : numbers) {
@@ -17,13 +17,13 @@ public class E01_methodlariAnlamak {
                 break;
             }
         }
-        if(varMi == true){
-            System.out.println(aranacak+" sayisi seri de mevcuttur. ;) ");
+        if(varMi){
+            mesajVer(aranacak+" sayisi seri de mevcuttur. ;) ");
         }else{
-            System.out.println(aranacak+" sayisi seri de mevcut değildir. :( ");
+            mesajVer(aranacak+" sayisi seri de mevcut değildir. :( ");
         }
     }
-    public static void mesajVer (int aranacak){
-        System.out.println("Sayi mevcuttur : "+aranacak);
+    public static void mesajVer (String mesaj){
+        System.out.println(mesaj);
     }
 }
