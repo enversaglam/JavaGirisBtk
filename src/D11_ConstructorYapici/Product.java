@@ -1,13 +1,19 @@
 package D11_ConstructorYapici;
 
-public class E01_Product {
-
-    //Yapıcı blok Constructor
-    public E01_Product(){
+public class Product {
+    public Product (int id, String name, String description, double price, int stockAmount, String renk){
         System.out.println("Yapici Constructor blok calisti");
+        this.id = id;
+        this.name = name;
+        this.description = description;
+        this.price = price;
+        this.stockAmount = stockAmount;
+        this.renk = renk;
+    }
+    public Product (){
+
     }
 
-    //attribute | field
     private int id;
     private String description;
     private String name;
