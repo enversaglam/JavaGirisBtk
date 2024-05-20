@@ -7,5 +7,8 @@ public class Main {
         womanGameCalculator.hesapla();
         womanGameCalculator.gameOver();
         kidsGameCalculator.hesapla();
+        //GameCalculator gameCalculator = new GameCalculator(); abstract oldugu icin bu sekilde kullanmak mümkün degil
+        
+
     }
 }
