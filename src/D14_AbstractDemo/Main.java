@@ -3,7 +3,7 @@ package D14_AbstractDemo;
 public class Main {
     public static void main(String[] args) {
         CustomerManager customerManager = new CustomerManager();
-        customerManager.databaseManager = new SqlServerDatabaseManager();
+        customerManager.databaseManager = new MySqlDatabaseManager();
         customerManager.getCustomers();
     }
 }
